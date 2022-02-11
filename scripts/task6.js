@@ -1,4 +1,3 @@
-const body = document.querySelector("body");
 const css = document.querySelector("h3");
 const color1 = document.querySelector(".color1");
 const color2 = document.querySelector(".color2");
@@ -27,18 +26,19 @@ function setGradient() {
 }
 
 function randomColor() {
-  return fetch("http://api.creativehandles.com/getRandomColor")
-    .then((response) => response.json())
-    .then((data) => data.color);
+  var randomColor = "#000000".replace(/0/g, function () {
+    return (~~(Math.random() * 16)).toString(16);
+  });
+  return randomColor;
 }
 
 function randomGradient() {
-  randomColor().then((data) => (color1.value = data));
-  randomColor()
-    .then((data) => (color2.value = data))
-    .then(setGradient);
+  color1.value = randomColor();
+  color1.value = randomColor();
+  setGradient();
 }
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 random.addEventListener("click", randomGradient);
+
