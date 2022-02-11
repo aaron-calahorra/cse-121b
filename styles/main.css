@@ -36,6 +36,7 @@ button {
     letter-spacing: 4px;
     transition: box-shadow .2s;
     text-transform: uppercase;
+    background-color: whitesmoke;
 }
 
 button:hover {
