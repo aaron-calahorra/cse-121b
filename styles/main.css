@@ -16,7 +16,7 @@ h1 {
     text-transform: uppercase;
     line-height: 70%;
     font-weight: 600;
-    margin: 150px 0 0;
+    margin: 120px 0 0;
 }
 
 h2 {
@@ -100,9 +100,9 @@ input[type="color"]::-webkit-color-swatch {
 }
 
 p {
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: 200;
     letter-spacing: 1px;
-    position: absolute;
-    top: 92%;
+    position: fixed;
+    top: 94%;
 }
