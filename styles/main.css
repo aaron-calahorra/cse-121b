@@ -1,5 +1,5 @@
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Syne', sans-serif;
     text-align: center;
     background: linear-gradient(to right, #02AAB0, #00CDAC);
     display: flex;
@@ -14,13 +14,13 @@ body {
 h1 {
     font-size: 2rem;
     text-transform: uppercase;
-    letter-spacing: 20px;
-    font-weight: 400;
+    line-height: 70%;
+    font-weight: 600;
 }
 
 h2 {
     font-weight: 200;
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: 4px;
 }
 
@@ -28,7 +28,7 @@ h2 {
 button {
     padding: 15px 25px;
     font-weight: 400;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Syne', sans-serif;
     cursor: pointer;
     border-radius: 20px;
     border: .2px solid white;
@@ -102,5 +102,7 @@ p {
     font-size: .8rem;
     font-weight: 200;
     letter-spacing: 1px;
-    margin: 70px 0 20px;  
+    margin: 70px 0 20px;
+    position: absolute;
+    top: 85vh;
 }
