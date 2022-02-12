@@ -34,7 +34,7 @@ function randomColor() {
 
 function randomGradient() {
   color1.value = randomColor();
-  color1.value = randomColor();
+  color2.value = randomColor();
   setGradient();
 }
 
