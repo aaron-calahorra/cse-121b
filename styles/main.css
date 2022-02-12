@@ -12,10 +12,11 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
     line-height: 70%;
     font-weight: 600;
+    letter-spacing: -4px;
 }
 
 h2 {
@@ -102,6 +103,10 @@ p {
     font-size: .7rem;
     font-weight: 200;
     letter-spacing: 1px;
-  position: fixed;
-  top: 94vh;
+    position: fixed;
+    top: 94vh;
+}
+
+b {
+  letter-spacing: -.5px;
 }
