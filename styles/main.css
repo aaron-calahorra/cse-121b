@@ -105,8 +105,9 @@ p {
     letter-spacing: 1px;
     position: fixed;
     top: 94vh;
+    -webkit-backface-visibility: hidden;
 }
 
 b {
-    letter-spacing: -.1px;
+    letter-spacing: -0.1px;
 }
